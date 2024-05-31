@@ -564,7 +564,19 @@ section .cards{
   color: white;
 }
 
-
+.end-h1 h1{
+ font-size: 16px;
+ font-weight: 400;
+}
+.end-h1{
+  align-items: center;
+}
+.footer-end-elem{
+  align-items: center;
+}
+.end-bottom li{
+  padding: 10px;
+}
 
 @media only screen and (max-width:768px) {
  
