@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -11,51 +11,48 @@
 </head>
 
 <body>
-  
-    <header class="header">
-        <div class="container header__wrapper">
-            <nav class="nav-header">
-                <div class="header__wrapper-left">
+
+    <header>
+        <nav class="navbar container flex">
+            <div class="navbar__left flex">
+                <div class="left-img">
                     <img src="images/fi-rr-arrow-left.png" alt="">
-                    <p>Back to Home</p>
                 </div>
-                <div class="header__wrapper-right">
-                    <a href="#" class="logo">
-                        <img src="images/fi-rr-search.png" alt="">
-                    </a>
-                    <p>Pearl Club</p>
-                    <p>Login <img src="images/fi-rr-angle-small-down (1).png" alt=""> / </p>
-                    <p>VIE <img src="images/fi-rr-angle-small-down.png" alt="">
-                    </p>
+                <div>
+                    <p class="left-backHome"><a href="#">Back to Home</a></p>
                 </div>
-            </nav>
-            <nav class="nav-header-bottom">
-                <div class="header__header-left">
-                    <img src="images/menu.png" alt="">
-                    <img src="images/fi-rr-search.png" alt="" class="header_left-shear">
-                </div>
-                <div class="header__header-center">
-                    <ul class="nav__links">
-                        <li><a href="#">Về chúng tôi</a></li>
-                        <li><a href="#">Sân Golf</a></li>
-                        <li><a href="#">Hoạt động</a></li>
-                        <li><a href="#"><img src="images/logo2.png" alt="" class="nav__links-logoImg"></a></li>
-                        <li><a href="#">Ẩm thực</a></li>
-                        <li><a href="#">Hội viên</a></li>
-                        <li><a href="#">Chính sách</a></li>
+            </div>
 
-                    </ul>
-                </div>
-                <div class="header__header-right">
-                    <a href="#" class="content-bookNow">Book Now</a>
-                </div>
-                <div class="menu-btn">
+            <ul class="nav-links flex">
+                <li><a href="#" class="logo"><img src="images/fi-rr-search.png" alt=""></a></li>
+                <li><a href="#">Pearl Club</a></li>
+                <li><a href="#">Login <img src="images/fi-rr-angle-small-down (1).png" alt=""> /</a></li>
+                <li><a href="#">VIE <img src="images/fi-rr-angle-small-down.png" alt=""></a></li>
+            </ul>
 
-                </div>
-            </nav>
+        </nav>
+        <nav class="navbar__bottom container flex">
+            <div class="navbar__bottom-menu flex">
+                <img src="images/menu.png" alt="">
+                <img src="images/fi-rr-search.png" alt="" class="menu-search">
+            </div>
+            <div class="navbar__bottom-center">
+                <ul class="nav__links flex">
+                    <li><a href="#">Về chúng tôi</a></li>
+                    <li><a href="#">Sân Golf</a></li>
+                    <li><a href="#">Hoạt động</a></li>
+                    <li><a href="#"><img src="images/logo2.png" alt="" class="nav__links-logoImg"></a></li>
+                    <li><a href="#">Ẩm thực</a></li>
+                    <li><a href="#">Hội viên</a></li>
+                    <li><a href="#">Chính sách</a></li>
 
+                </ul>
+            </div>
+            <div class="nav__bottom-right">
+                <a href="#" class="content-bookNow">Book Now</a>
+            </div>
 
-        </div>
+        </nav>
     </header>
     <section class="homepage" id="home">
         <div class="container flex">
@@ -65,188 +62,201 @@
                 <p>On the way to fulfilling the mission of delivering high-class experiences, Vinpearl <br> makes an
                     impression
                     on all visitors with</p>
+                <a href="#">Book Now <img src="images/01 align center.png" alt=""></a>
+
             </div>
 
-            <a href="#">Book Now <img src="images/01 align center.png" alt=""></a>
 
 
         </div>
     </section>
+
     <section class="services" id="services">
-        <div class="container ">
 
-            <div class="section__title">
-                <h1>Về Vinpearl <span style="color:rgba(0, 175, 67, 1) ;">Golf</span></h1>
-            </div>
-            <div class="row">
+        <div class="section__title">
+            <h1>Về Vinpearl <span style="color:rgba(0, 175, 67, 1) ;">Golf</span></h1>
+        </div>
+        <div class="row container flex">
 
-                <div class="image">
-                    <div class="image__logo">
-                        <img src="images/list1.png" alt="">
-                        <div class="path">
-                            <img src="images/path480.png" alt="">
-                        </div>
-                    </div>
-
-                </div>
-                <div>
-
-
-                </div>
-                <div class="row-item">
-                    <div class="content">
-                        <h1 style="color: black;">Designed by IMG Worldwide</h1>
-                        <p style="color: black;">The world's leading golf course designer, Vinpearl Golf represents the
-                            quintessence of top-notch experiences for explorations of majestic nature and a new
-                            destination on the global golfing map. Some active golf courses are Vinpearl Golf Phu Quoc,
-                            Vinpearl Golf Nha Trang, Vinpearl Golf Hai Phong, and Vinpearl Golf Nam Hoi An. Besides, our
-                            new cherished projects promise to be golfing masterpieces in the future.
-                        </p>
-                        <a href="#" class="btn">learn more</a>
-                    </div>
-                    <div class="info-container">
-                        <div class="info-grid">
-                            <div class="info-item">
-                                <p class="number" style="color: black;">06</p>
-                                <p class="label" style="color: black;">Sân</p>
-                            </div>
-                            <div class="info-item">
-                                <p class="number" style="color: black;">7080</p>
-                                <p class="label" style="color: black;">Diện tích</p>
-                            </div>
-                            <div class="info-item">
-                                <p class="number" style="color: black;">01</p>
-                                <p class="label" style="color: black;">Holer</p>
-                            </div>
-                            <div class="info-item">
-                                <p class="number" style="color: black;">228</p>
-                                <p class="label" style="color: black;">Giải đấu</p>
-                            </div>
-                        </div>
-                        <div class="bandoImg">
-                            <img src="images/Frame BANDO.png" alt="Bando Image">
-                        </div>
+            <div class="image ">
+                <div class="image__logo">
+                    <img src="images/list1.png" alt="" class="image__logo-list1">
+                    <div class="path">
+                        <img src="images/path480.png" alt="" class="image__logo-path">
                     </div>
                 </div>
 
             </div>
+            <div>
+
+
+            </div>
+            <div class="row-item">
+                <div class="content">
+                    <h1 style="color: black;">Designed by IMG Worldwide</h1>
+                    <p style="color: black;">The world's leading golf course designer, Vinpearl Golf represents the
+                        quintessence of top-notch experiences for explorations of majestic nature and a new
+                        destination on the global golfing map. Some active golf courses are Vinpearl Golf Phu Quoc,
+                        Vinpearl Golf Nha Trang, Vinpearl Golf Hai Phong, and Vinpearl Golf Nam Hoi An. Besides, our
+                        new cherished projects promise to be golfing masterpieces in the future.
+                    </p>
+                    <p style="display: none;" class="content-item">Vinpearl Resort Nha Trang offers a diverse and rich
+                        culinary experience, from international buffets loved by the whole family, Mediterranean-style
+                        cuisine in ...</p>
+                </div>
+                <div class="info-container">
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <p class="number" style="color: black;">06</p>
+                            <p class="label" style="color: black;">Sân</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="number" style="color: black;">7080</p>
+                            <p class="label" style="color: black;">Diện tích</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="number" style="color: black;">01</p>
+                            <p class="label" style="color: black;">Holer</p>
+                        </div>
+                        <div class="info-item">
+                            <p class="number" style="color: black;">228</p>
+                            <p class="label" style="color: black;">Giải đấu</p>
+                        </div>
+                    </div>
+                    <div class="bandoImg">
+                        <img src="images/Frame BANDO.png" alt="#" class="bandoImg">
+                    </div>
+                </div>
+            </div>
+
+        </div>
 
         </div>
     </section>
 
     <section class="protfolio" id="protfolio">
-        <div class="container">
-            <div class="section__title">
-                <h1>Explore Vinpearl Golf</h1>
-                <p>Get ready to be amazed by a Vietnam you have never seen before, where quintessential cultural essence
-                    gathers </p>
-            </div>
-            <ul class="cards flex">
-                <li class="card-about">
-                    <img src="images/item1.png" alt="">
+        <div class="section__title">
+            <h1>Explore Vinpearl Golf</h1>
+            <p>Get ready to be amazed by a Vietnam you have never seen before, where quintessential cultural essence
+                gathers </p>
+        </div>
+        <div class=" protfolio__mobile">
+
+            <ul class=" cards container flex">
+
+                <li class=" card-about">
+                    <img src="images/item1.png" alt="" class="cards-img">
                     <h3>Chơi Golf</h3>
                     <a href="#" class="btn">Stay & Play</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
                 <li class="card-about">
-                    <img src="images/item2.png" alt="">
+                    <img src="images/item2.png" alt="" class="cards-img">
                     <h3>Thi Đấu</h3>
                     <a href="#" class="btn">Các giải đấu thế giới</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
-                <li class="card-about">
-                    <img src="images/item3.png" alt="">
+                <li class=" card-about">
+                    <img src="images/item3.png" alt="" class="cards-img">
                     <h3>Sự Kiện</h3>
                     <a href="#" class="btn">Các sự kiện đặc biệt</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
-                <li class="card-about">
-                    <img src="images/item4.png" alt="">
+                <li class=" card-about">
+                    <img src="images/item4.png" alt="" class="cards-img">
                     <h3>Ẩm Thực</h3>
                     <a href="#" class="btn">Stay & Play</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
                 <li class="card-about">
-                    <img src="images/item5.png" alt="">
+                    <img src="images/item5.png" alt="" class="cards-img">
                     <h3>Nghỉ Dưỡng</h3>
                     <a href="#" class="btn">Stay & Play</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
                 <li class="card-about">
-                    <img src="images/item6.png" alt="">
+                    <img src="images/item6.png" alt="" class="cards-img">
                     <h3>Mua Sắm</h3>
                     <a href="#" class="btn">Stay & Play</a>
                     <img src="images/01 align center.png" alt="" class="box-imgRight">
                 </li>
+
+
             </ul>
         </div>
+
+
+    </section>
+    <section class="about" id="about">
+
+        <div class="section__title">
+            <h1>Maps Vinpearl Golf</h1>
+            <p>Get ready to be amazed by a Vietnam you have never seen before, where quintessential cultural essence
+                gathers </p>
+        </div>
+        <ul class="cards container flex">
+            <li class="cards-about">
+                <img src="images/Ellipse 7.png" alt="" class="card-about-imgEllipse">
+
+                <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
+                <p>Nha Trang</p>
+
+            </li>
+            <li class="cards-about">
+                <img src="images/Ellipse 8.png" alt="" class="card-about-imgEllipse">
+
+                <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
+                <p>Nam Hội An</p>
+
+            </li>
+            <li class="cards-about">
+                <img src="images/Ellipse 9.png" alt="" class="card-about-imgEllipse">
+
+                <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
+                <p>Phú Quốc</p>
+
+            </li>
+            <li class="cards-about">
+                <img src="images/Ellipse 10.png" alt="" class="card-about-imgEllipse">
+
+                <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
+                <p> Hải Phòng</p>
+
+            </li>
+            <li class="cards-about">
+                <img src="images/Ellipse 11.png" alt="" class="card-about-imgEllipse">
+
+                <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
+                <p>Tasmania Úc</p>
+
+            </li>
+        </ul>
 
     </section>
 
     <section class="about" id="about">
         <div class="container">
-            <div class="section__title">
-                <h1>Maps Vinpearl Golf</h1>
-                <p>Get ready to be amazed by a Vietnam you have never seen before, where quintessential cultural essence
-                    gathers </p>
-            </div>
-            <ul class="cards__About flex">
-                <li class="card-about">
-                    <img src="images/Ellipse 7.png" alt="">
-                    <div class="content">
-                        <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
-                        <p>Nha Trang</p>
-                    </div>
-                </li>
-                <li class="card-about">
-                    <img src="images/Ellipse 8.png" alt="">
-                    <div class="content">
-                        <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
-                        <p>Nam Hội An</p>
-                    </div>
-                </li>
-                <li class="card-about">
-                    <img src="images/Ellipse 9.png" alt="">
-                    <div class="content">
-                        <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
-                        <p>Phú Quốc</p>
-                    </div>
-                </li>
-                <li class="card-about">
-                    <img src="images/Ellipse 10.png" alt="">
-                    <div class="content">
-                        <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
-                        <p> Hải Phòng</p>
-                    </div>
-                </li>
-                <li class="card-about">
-                    <img src="images/Ellipse 11.png" alt="">
-                    <div class="content">
-                        <p>Vinpearl<span style="color: #00AE41;"> Golf</span></p>
-                        <p>Tasmania Úc</p>
-                    </div>
-                </li>
-            </ul>
-        </div>
+            <div class="section-new flex">
+                <div class="new-left">
+                    <h1>News</h1>
+                </div>
+                <div class="new-top">
+                    <a href="#">Book Now <img style="color: #00AE41;" src="images/fi-rr-arrow-right.png" alt=""
+                            class="new-top-right"></a>
 
-    </section>
-
-    <section class="about" id="about">
-        <div class="container">
-            <div class="section-new">
-                <h1>News</h1>
+                </div>
             </div>
-            <ul class="cards__Abouts flex">
+            <ul class="cards flex">
                 <li class="card-about">
-                    <img src="images/Rectangle 2823.png" class="user" alt="">
+                    <img src="images/Rectangle 2823.png" class="about-user" alt="">
                     <p>Festive season experience, winter holiday only <br> from 1.982.400 VND/night</p>
                 </li>
                 <li class="card-about">
-                    <img src="images/Rectangle 2846.png" class="user" alt="">
+                    <img src="images/Rectangle 2846.png" class="about-user" alt="">
                     <p>BLACK FRIDAY- Up to 30% off, long stay, enjoy <br> traveling from winter to summer</p>
                 </li>
                 <li class="card-about">
-                    <img src="images/Rectangle 2847.png" class="user" alt="">
+                    <img src="images/Rectangle 2847.png" class="about-user" alt="">
                     <p>“PEACE & PEARLS” - Balance body and mind - <br> inspire at Vinpearl Luxury ...</p>
                 </li>
             </ul>
@@ -254,12 +264,11 @@
 
     </section>
 
-
     <section class="contact" id="contact">
         <div class="container-header">
 
             <div class="contact_elem-text3 flex">
-                <img src="images/thsn-pattern-2-left 1.png" alt="" class="">
+                <img src="images/Rectangle 3054.png" alt="" class="elem-text3-img">
 
                 <div class="text">
                     <h1>Featured Tournament</h1>
@@ -319,15 +328,19 @@
                 <div class="modifuler_Img-top">
                     <img src="images/Rectangle 2881.png" alt="">
                 </div>
-                    <div class="modifuler_Img-center">
+                <div class="modifuler_Img-center">
+                    <div>
                         <img src="images/Rectangle 3056.png" alt="">
+                    </div>
+                    <div>
                         <img src="images/Rectangle 3058.png" alt="">
                     </div>
-                    <div class=""modifuler_Img-bottom>
-                        <img src="images/Rectangle 3059.png" alt="">
+                </div>
+                <div class="" modifuler_Img-bottom>
+                    <img src="images/Rectangle 3059.png" alt="">
 
-                    </div>
-              
+                </div>
+
 
             </div>
 
@@ -452,9 +465,6 @@
 
 
     </section>
-
-
-
 
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
